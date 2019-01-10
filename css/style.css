@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+
+#header {
+  display: grid;
+  justify-items: center;
+  background-color: rgba(20,20,20,0.9);
+  width: 100%;
+  position: fixed;
+}
+
+#header img {
+  justify-self: end;
+}
+
+nav li {
+  display: inline;
+  margin-right: 95px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#emailSignup {
+  color: white;
+  background-color: rgba(250,0,0,0.4);
+  border-radius: 25px;
+  height: 250px;
+  width: 450px;
+  margin: 105px;
+}
+
+#email {
+  margin-top: 20px;
+}
+
+#submit {
+  margin-top: 40px;
+}
+
+#about {
+  color: white;
+  background-color: rgba(360,360,360,0.3);
+  border: 2px solid gray;
+  border-radius: 15px;
+  width: 65%;
+  padding-bottom: 30px;
+}
+
+#models {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  margin-top: 40px;
+  color: white;
+}
+
+#models img {
+  border: 1px solid gray;
+}
+
+#box1 {
+  border: 1px solid gray;
+  width: 33.3%;
+  height: 100%;
+}
+
+#box2 {
+  border: 1px solid gray;
+  width: 33.3%;
+  height: 100%;
+}
+
+#box3 {
+  border: 1px solid gray;
+  width: 33.3%;
+  height: 100%;
+}
+
+@media (max-width: 700px) {
+  #about {
+    width: 100%; 
+  }
+  
+  #models {
+    flex-direction: column;
+    height: 1500px;
+  }
+  
+  #box1 {
+    height: 500px;
+    width: 100%;
+  }
+  
+  #box2 {
+    height: 500px;
+    width: 100%;
+  }
+  
+  #box3 {
+    height: 500px;
+    width: 100%;
+  }
+}
