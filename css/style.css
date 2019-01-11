@@ -13,10 +13,6 @@ body {
   position: fixed;
 }
 
-#header img {
-  justify-self: end;
-}
-
 nav li {
   display: inline;
   margin-right: 95px;
@@ -24,13 +20,14 @@ nav li {
 
 nav a {
   text-decoration: none;
+  font-size: 14pt;
+  color: darkred;
 }
 
 #emailSignup {
   color: white;
   background-color: rgba(250,0,0,0.4);
-  border-radius: 25px;
-  height: 250px;
+  height: 200px;
   width: 450px;
   margin: 105px;
 }
@@ -47,7 +44,6 @@ nav a {
   color: white;
   background-color: rgba(360,360,360,0.3);
   border: 2px solid gray;
-  border-radius: 15px;
   width: 65%;
   padding-bottom: 30px;
 }
